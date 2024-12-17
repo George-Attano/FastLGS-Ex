@@ -1,0 +1,11 @@
+name: fastlgs
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cuda-toolkit>=12.1.0
+  - python>=3.10.0
+  - pip>=22.3.1
+  - pytorch>=2.3.1
+  - torchvision>=0.18.1
