@@ -61,6 +61,7 @@ You can use any 3DGS method to train the generated feature maps, thus this part 
 The original 3DGS is a quick approach, please refer to its [instructions](https://github.com/graphdeco-inria/gaussian-splatting).
 
 # Evaluate
+[sam2auto_official](readme_imgs/sam2small.png)
 After training and rendering features, you can use the example code/query_target.py to query scene objects.
 
 We also provide the evaluation code used in LERF_OVS dataset: code/evaluate_lerf_ovs.py.
@@ -69,7 +70,6 @@ Please refer to the code for detailed usage.
 
 *Note that the auto mask generation can vary upon different settings, the results of official SAM2 auto mask generation demo on our setting are as follows:
 
-[sam2auto_official](readme_imgs/sam2small.png)
 
 ## Bibtex
 If you find this useful, please cite the paper!
