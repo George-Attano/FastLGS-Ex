@@ -8,6 +8,7 @@ The original matching preprocess is time-consuming that costs more than 25 minut
 We further provide a GUI for manual refinement.
 
 MIoU Results on the [LERF_OVS](https://drive.google.com/file/d/1QF1Po5p5DwTjFHu6tnTeYs_G0egMVmHt/view) dataset are as follows:
+
 ![MIoU on LERF_OVS](readme_imgs/Table.png)
 
 # Envs
@@ -59,3 +60,6 @@ After training and rendering features, you can use the example code/query_target
 We also provide the evaluation code used in LERF_OVS dataset: code/evaluate_lerf_ovs.py.
 
 Please refer to the code for detailed usage.
+
+*Note that the auto mask generation can vary upon different settings, the results of official SAM2 auto mask generation demo on our setting are as follows:
+
