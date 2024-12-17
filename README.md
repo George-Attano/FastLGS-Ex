@@ -67,8 +67,8 @@ We also provide the evaluation code used in LERF_OVS dataset: code/evaluate_lerf
 
 Please refer to the code for detailed usage.
 
-*Note that the auto mask generation can vary upon different settings, the results of official SAM2 auto mask generation demo on our setting are as follows:
-[Sam2](readme_imgs/Sam.png)
+*Note that the auto mask generation can vary upon different settings, the results of official SAM2 auto mask generation demo (with default config) on our setting are:
+![SamDemoResult](readme_imgs/Sam.png)
 
 ## Bibtex
 If you find this useful, please cite the paper!
