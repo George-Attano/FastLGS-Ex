@@ -69,4 +69,4 @@ Please refer to the code for detailed usage.
 
 *Note that the auto mask generation can vary upon different settings, the results of official SAM2 auto mask generation demo on our setting are as follows:
 
-[sam2auto_official](readme_imgs/sam2automask.png)
+[sam2auto_official](readme_imgs/sam2small.png)
