@@ -70,3 +70,12 @@ Please refer to the code for detailed usage.
 *Note that the auto mask generation can vary upon different settings, the results of official SAM2 auto mask generation demo on our setting are as follows:
 
 [sam2auto_official](readme_imgs/sam2small.png)
+
+## Bibtex
+If you find this useful, please cite the paper!
+<pre id="codecell0">@inproceedings{ji2025fastlgs,
+&nbsp;author = {Ji, Yuzhou and Zhu, He and Tang, Junshu and Liu, Wuyi and Zhang, Zhizhong and Tan, Xin and Xie, Yuan},
+&nbsp;title = {FastLGS: Speeding up Language Embedded Gaussians with Feature Grid Mapping},
+&nbsp;booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+&nbsp;year = {2025},
+} </pre>
