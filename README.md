@@ -30,6 +30,7 @@ pip install gradio
 Raw pip dependencies are in requirements.txt.
 
 # Using GUI
+![GUI Example](readme_imgs/GUI.png)
 ### 0. Setting Paths
 Check code/Data_Init_GUI.py to set all required paths.
 ### 1. Launch GUI
@@ -49,6 +50,11 @@ At last press "Full Propagate" to propagate the current masks to all other frame
 
 *FastLGS-Ex results shown above is based on auto initialization without manual prompts, FastLGS-Ex(Manual) means auto initialization plus manual prompts.
 
+# Enrich Features (Experimental & Optional)
+While a single object's features vary with view change, using only the features of single initial view can lead to failure in demanding scenarios. 
+
+code/update_mapping.py shows a example of enriching multi-view semantics, but could cause surrounding information to override original features, thus it is not used in evaluation.
+
 # Training Features
 You can use any 3DGS method to train the generated feature maps, thus this part is not integrated in this simplified version.
 
@@ -63,3 +69,4 @@ Please refer to the code for detailed usage.
 
 *Note that the auto mask generation can vary upon different settings, the results of official SAM2 auto mask generation demo on our setting are as follows:
 
+[sam2auto_official](readme_imgs/sam2automask.png)
