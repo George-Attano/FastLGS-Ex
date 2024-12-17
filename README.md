@@ -9,3 +9,11 @@ We further provide a GUI for manual refinement.
 
 MIoU Results on the [LERF_OVS](https://drive.google.com/file/d/1QF1Po5p5DwTjFHu6tnTeYs_G0egMVmHt/view) dataset are as follows:
 ![MIoU on LERF_OVS](readme_imgs/Table.png)
+
+# Envs
+The base env is provided in fastlgs_ex/fastlgs_base_env.yml: 
+
+```
+conda env create --file fastlgs_base_env.yml
+conda activate fastlgs
+```
